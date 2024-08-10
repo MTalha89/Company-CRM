@@ -1,0 +1,30 @@
+/erp-system
+├── /config
+│   └── database.php
+├── /includes
+│   ├── auth.php
+│   └── roles.php
+├── /modules
+│   ├── /auth
+│   │   ├── login.php
+│   │   └── register.php
+│   ├── /products
+│   │   └── add_product.php
+│   ├── /machines
+│   │   └── add_machine.php
+│   ├── /production
+│   │   ├── assign_product.php
+│   │   └── add_entry.php
+│   ├── /qa
+│   │   └── approve.php
+│   ├── /store
+│   │   └── add_to_inventory.php
+│   └── /dispatch
+│       └── dispatch.php
+├── /assets
+│   ├── /css
+│   │   └── style.css
+│   └── /js
+│       └── script.js
+├── index.php
+└── .htaccess
